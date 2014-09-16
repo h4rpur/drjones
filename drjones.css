@@ -1,0 +1,28 @@
+html { height: 100% }
+body { height: 100%; margin: 0; padding: 0 }
+#mapcanvas { height: 100% }
+#toolbar{
+	position:absolute;
+	top:0;
+	left:200px;
+	z-index:1;	
+}
+.tool{
+	width:7em;	
+	background:#FFE9BF;
+	display:inline-block;
+	text-align:center;
+	font-family: 'Special Elite', sans-serif;
+	padding:5px;	
+	border-radius:10px;
+	padding-top:20px;
+	position:relative;
+	top:-10px;
+}
+#tool_start{background:#f00;}
+#tool_fly{}
+#tool_boat{}
+#tool_drive{}
+#tool_walkv
+#tool_cycle{}
+#tool_end{}

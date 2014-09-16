@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DrJones</title>
+	<link rel="stylesheet" href="drjones.css" type="text/css">		<!-- For gitters, use your API Key from gmaps. -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=___YOUR_API_KEY___&sensor=false"></script>
+	<script src="drjones.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div id="toolbar">
+		<div class="tool" id="tool_start" onclick="selectTool(this.id)">Start Line</div>
+		<div class="tool" id="tool_fly" onclick="selectTool(this.id)">Fly</div> 
+		<div class="tool" id="tool_boat" onclick="selectTool(this.id)">Boat</div>
+		<div class="tool" id="tool_drive" onclick="selectTool(this.id)">Drive</div>
+		<div class="tool" id="tool_walk" onclick="selectTool(this.id)">Walk</div>
+		<div class="tool" id="tool_cycle" onclick="selectTool(this.id)">Cycle</div>
+		<div class="tool" id="tool_end" onclick="selectTool(this.id)">End</div>
+	</div>
+	<div id="mapcanvas"></div>
+</body>
+</html>
